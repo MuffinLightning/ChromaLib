@@ -5,4 +5,4 @@ A Java library for color-identification purposes.
 TBD
 
 ## Examples
-[Bejeweled Solverk](https://www.youtube.com)
+[Bejeweled Solver](https://www.youtube.com)
