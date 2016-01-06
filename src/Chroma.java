@@ -13,14 +13,14 @@ public class Chroma {
 	}
 	
 	
-	public Color getColor(int x, int y) {
+	public int getColor(int x, int y) { // Returns int representation of color
 		
 		Color color = screenCap.getPixelColor(x, y);
-
-		return color;
+		int rgb = color.getRGB();
+		return rgb;
 	}
 	
-	public int[] getRGB(int x, int y) { // Returns an array containing RGB values of the pixel
+	public int[] getRGBAry(int x, int y) { // Returns an array containing RGB values of the pixel
 		
 		Color color = screenCap.getPixelColor(x, y);
 		int[] rgb = new int[3];
