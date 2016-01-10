@@ -13,6 +13,8 @@ Currently a work in progress.
 
 - getHSB(int x, int y)  // Returns a float array containing HSB values of the pixel
 
+- isWhite(int x, int y) // Returns a boolean
+
 ## Examples
 [Bejeweled Solver](https://www.youtube.com/watch?v=hOTplw7yuuM)
 
