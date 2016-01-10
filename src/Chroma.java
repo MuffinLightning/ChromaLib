@@ -47,5 +47,17 @@ public class Chroma {
 		
 	}
 	
+	public boolean isWhite(int x, int y) {
+	float[] hsbAry = getHSB(x, y);
+	   
+	if (hsbAry[1] < 0.1 && hsbAry[2] > 0.9) {
+		return true;	
+	}
+	
+	else {
+		return false;
+	}
+	}
+	
 
 }
